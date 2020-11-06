@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="./login.js"></script>
+    <script src="./validation.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo"></div>
+      <div class="header-content"></div>
+    </div>
+    <div class="mainContent">
+      <form class="form" action="login.html">
+        <div class="containet text-center text-white headerset">
+          <h1>Registration</h1>
+        </div>
+        <label>
+          <p class="label-txt">ENTER YOUR NAME</p>
+          <input type="text" class="input text-warning" id="name" name="name" />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">ENTER MOBILE NUMBER</p>
+          <input
+            type="number"
+            class="input text-warning"
+            id="number"
+            name="number"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">ENTER EMAIL-ID</p>
+          <input
+            type="email"
+            class="input text-warning"
+            id="ruseremail"
+            name="email"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">ENTER YOUR USERNAME</p>
+          <input
+            type="text"
+            class="input text-warning"
+            id="rusername"
+            name="username"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">ENTER YOUR PASSWORD</p>
+          <input
+            type="text"
+            class="input text-warning"
+            id="ruserpass"
+            name="password"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">ENTER CONFIRM PASSWORD</p>
+          <input
+            type="text"
+            class="input text-warning"
+            id="confirmPass"
+            name="confirmPass"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <button type="submit" class="btn btn-warning" id="registeruser">
+          SIGN-UP
+        </button>
+      </form>
+    </div>
+    <footer class="container-fluid bg-dark text-center text-white">
+      All rights are reserved &copy; Blog It
+    </footer>
+  </body>
+</html>
